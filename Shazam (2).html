@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAZAM</title>
+    <style>
+        .slideshow-container{
+            position: relative;
+            max-width: 1366px;
+            margin:auto;
+        }
+        .myslides {
+            display:none;
+
+        }
+         .myslides img {
+            width:100%;
+            height: 786px;   
+         }
+         .prev ,.next{
+            position: absolute;
+            top: 50%;
+            margin-top: -2px;
+            padding:16px;
+            color:black;
+            font-weight: bold;
+            font-size: 20px;
+            transition:0.6s ease;
+            border-radius: 3px 0 0 3px;
+            cursor:pointer;
+
+         }
+         .next{
+            right:0;
+            border-radius:3px 0 0 3px;
+
+         }
+         .prev:hover, next:hover{
+            background-color:black;
+            
+         }
+         @keyframes fade{
+            from{
+               opacity: 0.4;
+            }
+            to{
+               opacity:1;
+            }
+            }
+        /* Styles for the navigation bar */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex; /* Display items in a flex container */
+        }
+
+        nav ul li {
+            flex-grow: 1; /* Allow items to grow and fill the available space */
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px; /* Larger font size */
+            font-weight: bold; /* Bold text */
+        }
+
+        nav ul li a:hover {
+            background-color: #0c56c9;
+        }
+
+        .logo {
+            margin-left: 20px; /* Add margin to the left for logo */
+        }
+
+        /* Styles for the image gallery */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap into multiple lines */
+            justify-content: space-between; /* Space between items */
+            max-width: 1366px;
+            margin: auto;
+            padding: 20px 0; /* Add some space above and below the gallery */
+        }
+
+        .image-gallery figure {
+            width: 22%; /* Each image takes up 22% of the container */
+            margin-bottom: 20px; /* Add some space between rows */
+            text-align: center; /* Center the image */
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-gallery figcaption {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+   
+    </Style>
+<link rel ="stylesheet" href="style.css">
+</head>
+<nav id="Navigation">
+   <ul>
+      <a href="index.html" class="logo"><img src="logo.png" alt="Warner Bros Logo" height="40px"></a>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="tvshows.html">TV Shows</a></li>
+      <li><a href="gamesand apps .html">Games & Apps</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+   </ul>
+</nav>
+<body>
+    <video width=1450px; controls>
+      <source src="shazam.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  
+      </div>
+
+</script>
+
+</body>
+</html>
